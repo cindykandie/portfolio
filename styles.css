@@ -1,0 +1,69 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e9ebec;
+  background-image: url(./assets/headerbg.svg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+section.intro_section {
+  height: 100%;
+}
+
+section.intro_section header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 15px;
+}
+
+section.intro_section header div.logo {
+  font-size: 1.2rem;
+  font-family: 'BhuTuka Expanded One', sans-serif;
+  font-weight: 800;
+}
+
+section.intro_section header nav img {
+  width: 2.1rem;
+}
+
+section.intro_section article h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+section.intro_section article p {
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+section.intro_section div.contact-me h2 {
+  text-transform: uppercase;
+  color: #7F8CFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+section.intro_section div.contact-me div.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+section.intro_section div.contact-me div.socials img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/*# sourceMappingURL=styles.css.map */
