@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My Microverse README MarkDown</b></h3>
+  <h3><b>My Portfolio</b></h3>
 
 </div>
 
@@ -59,7 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Hello microverse] <a name="about-project"></a>
 
-- This is a home page created using HTML and CSS. With this minimal site, I have been able to learn about linters, githubflow and professional documentation.
+- This is a home page created using HTML and CSS. With this minimal site, I have implemented the figma design template 1 by Microverse.
+- I used css flexbox to display my elements correctly
+- added images on the page
+- Put text of various size and color
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -76,6 +79,7 @@ In order to run this project you need:
 - Git/Github
 - HTML and CSS knowledge
 - VS code or any other equivalent tool.
+- NodeJs, NPM
 
 <!--
 Example command:
@@ -102,7 +106,7 @@ Example commands:
 
 Install this project with:
 
-- to install locally run git clone https://github.com/Sammy3000/Hello-microverse.git
+- to install locally run git clone https://github.com/cindykandie/Hello-microverse.git
 - open the cloned directory with VSCode
 - Install lives server extension on VSCode
 - Right click on the index.html and select open with live server/Go Live
