@@ -5,34 +5,34 @@ body {
   padding: 1rem;
 }
 
-section.intro_section {
-  background-image: url(./assets/headerbg.svg);
-  background-repeat: repeat;
-  background-size: 100% 100%;
-  height: 100%;
-}
-
-section.intro_section header {
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0 0 15px;
 }
 
-section.intro_section header div.logo {
+header div.logo {
   font-size: 1.2rem;
   font-family: 'BhuTuka Expanded One', sans-serif;
   font-weight: 800;
 }
 
-section.intro_section header nav img {
+header nav img {
   width: 2.1rem;
+}
+
+section.intro_section {
+  background-image: url(./assets/headerbg.svg);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  height: 100%;
 }
 
 section.intro_section article h1 {
@@ -56,14 +56,17 @@ section.intro_section div.contact-me h2 {
   line-height: 1.5rem;
 }
 
-section.intro_section div.contact-me div.socials {
+section.intro_section div.contact-me ul.socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+  list-style: none;
+  padding: 0;
 }
 
-section.intro_section div.contact-me div.socials img {
+section.intro_section div.contact-me ul.socials li a img {
   width: 1.5rem;
   height: 1.5rem;
 }
+/*# sourceMappingURL=styles.css.map */
