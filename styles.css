@@ -1,52 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #e9ebec;
-  min-height: 100vh;
-  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 3.5rem 0.8rem;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(233, 235, 236);
+  padding: 20px;
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0 0 15px;
+  margin: 20px 0 50px;
+  max-height: 150px;
 }
-
 header div.logo {
   font-size: 1.2rem;
-  font-family: 'BhuTuka Expanded One', sans-serif;
+  font-family: "BhuTuka Expanded One", sans-serif;
   font-weight: 800;
 }
-
 header nav img {
   width: 2.1rem;
 }
 
 section.intro_section {
   background-image: url(./assets/headerbg.svg);
-  background-repeat: repeat;
-  background-size: 100% 100%;
-  height: 100%;
+  background-repeat: repeat(1);
+  background-size: cover;
+  background-position: 100%;
 }
-
 section.intro_section article h1 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 4rem;
 }
-
 section.intro_section article p {
   font-weight: 400;
   line-height: 2rem;
   font-size: 1rem;
 }
-
 section.intro_section div.contact-me h2 {
   text-transform: uppercase;
   color: #7f8cff;
@@ -54,18 +52,15 @@ section.intro_section div.contact-me h2 {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-bottom: 15px;
 }
-
 section.intro_section div.contact-me ul.socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   list-style: none;
   padding: 0;
 }
-
 section.intro_section div.contact-me ul.socials li a img {
-  width: 1.5rem;
-  height: 1.5rem;
-}
+  width: 1.2rem;
+  height: 1.2rem;
+}/*# sourceMappingURL=styles.css.map */
