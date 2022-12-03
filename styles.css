@@ -172,9 +172,9 @@ section.intro-section div.contact-me h2 {
 
 section.about-section div.contact-me a {
   padding: 8px 12px;
-  margin: 12px 5px;
+  margin: 10px 5px;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.2rem;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -328,14 +328,16 @@ section.about-section div.contact-me ul.socials li a img {
 
 section.about-section div.contact-me ul.socials {
   display: flex;
-  gap: 15px;
+  gap: 5px;
   list-style: none;
   padding: 0;
+  margin-bottom: 1.1rem;
 }
 
 section.about-section div.contact-me ul.socials li a {
   background-color: transparent;
   border: none;
+  padding: 0;
 }
 
 section#skills-section ul.mainskill-ul {
