@@ -63,6 +63,7 @@ After you're finished please remove all the comments and instructions!
 - I used css flexbox to display my elements correctly
 - added images on the page
 - Put text of various size and color
+- I have 5 main sections- Intro, Projects, About, Skills and Contact
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -149,9 +150,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@sam](https://github.com/cindykandie)
-- Twitter: [@towettsam](https://twitter.com/cindykandie)
-- LinkedIn: [@towettSammy](https://www.linkedin.com/in/cindykandie/)
+- GitHub: [@cindykandie](https://github.com/cindykandie)
+- Twitter: [@cndykandie](https://twitter.com/cindykandie)
+- LinkedIn: [@cindykandie](https://www.linkedin.com/in/cindykandie/)
 
 
 
@@ -185,7 +186,7 @@ If you like this project create a pr and lets work together, or maybe leave a st
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank my coding partners (Sammy and Ismail Mayito) and every code reviewer
+I would like to thank my coding partners, standup partners and every code reviewer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
