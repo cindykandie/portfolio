@@ -5,38 +5,27 @@
 }
 
 a:link {
-  color: #6070FF;
-  background-color: #FFFFFF;
+  color: #6070ff;
+  background-color: #fff;
+  border: 1px solid #6070ff;
 }
 
 a:visited {
-  color: #FFFFFF;
-  background-color: #6070FF;
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #fff;
 }
 
 a:hover {
-  color: #FFFFFF;
-  background-color: #6070FF;
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #fff;
 }
 
 a:active {
-  color: #FFFFFF;
-  background: #2230D2;
-}
-
-button:hover {
-  color: #FFFFFF;
-  background-color: #6070FF;
-}
-
-button:focus {
-  color: #FFFFFF;
-  background: #2230D2;
-}
-
-button:active {
-  color: #FFFFFF;
-  background: #2230D2;
+  color: #fff;
+  background: #2230d2;
+  border: 1px solid #fff;
 }
 
 body {
@@ -55,72 +44,164 @@ header {
   margin: 20px 0 50px;
   max-height: 150px;
 }
+
 header div.logo {
   font-size: 1.2rem;
   font-family: "BhuTuka Expanded One", sans-serif;
   font-weight: 800;
 }
+
 header nav img {
   width: 2.1rem;
 }
 
-section.intro-section, section.about-section, section.contact-form {
+footer.contact-form {
+  background-color: #6070ff;
   background-image: url(./assets/headerbg.svg);
-  background-repeat: repeat(1);
-  background-size: cover;
-  background-position: 100%;
+  border-radius: 100px 0 0 0;
+  margin: 0;
+  padding: 20px;
 }
-section.intro-section article h1, section.intro-section article.article-style h1, section.about-section article h1, section.about-section article.article-style h1, section.contact-form article h1, section.contact-form article.article-style h1 {
+
+footer.contact-form article {
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+footer article h1 {
+  text-align: center;
+  margin: 20px;
+  text-shadow: 2px -2px #000, -2px 2px black;
   font-size: 3rem;
   font-weight: 700;
   line-height: 4rem;
 }
-section.intro-section article p, section.intro-section article.article-style p, section.about-section article p, section.about-section article.article-style p, section.contact-form article p, section.contact-form article.article-style p {
+
+footer article p {
+  text-align: center;
   font-weight: 400;
   line-height: 2rem;
   font-size: 1rem;
 }
-section.intro-section div.contact-me h2, section.about-section div.contact-me h2, section.contact-form div.contact-me h2 {
+
+footer.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer.contact-form form input {
+  padding: 10px 5px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+}
+
+footer.contact-form form textarea {
+  padding: 10px 5px;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: 1px solid #cfd8dc;
+}
+
+footer.contact-form form button {
+  width: 160px;
+  padding: 8px 12px;
+  margin: 1rem 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+}
+
+footer.contact-form form button:hover {
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #fff;
+}
+
+footer.contact-form form button:focus {
+  color: #fff;
+  background: #2230d2;
+  border: 1px solid #fff;
+}
+
+footer.contact-form form button:active {
+  color: #fff;
+  background: #2230d2;
+  border: 1px solid #fff;
+}
+
+section.intro-section {
+  background-image: url(./assets/headerbg.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+section.intro-section article h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+section.about-section article p {
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+section.intro-section article p {
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+section.intro-section div.contact-me h2 {
   text-transform: uppercase;
   color: #7f8cff;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 15px;
 }
-section.intro-section div.contact-me ul.socials, section.about-section div.contact-me ul.socials, section.contact-form div.contact-me ul.socials {
+
+section.about-section div.contact-me a {
+  padding: 8px 12px;
+  margin: 12px 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+section.project-section article.project-card div.project_info a {
+  padding: 8px 12px;
+  margin: auto 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+section.intro-section div.contact-me ul.socials {
   display: flex;
   gap: 15px;
   list-style: none;
   padding: 0;
 }
-section.intro-section div.contact-me ul.socials li a, section.about-section div.contact-me ul.socials li a, section.contact-form div.contact-me ul.socials li a {
+
+section.intro-section div.contact-me ul.socials li a {
   background-color: transparent;
-}
-section.intro-section div.contact-me ul.socials li a img, section.about-section div.contact-me ul.socials li a img, section.contact-form div.contact-me ul.socials li a img {
-  width: 1.2rem;
-  height: 1.2rem;
+  border: none;
 }
 
-section.project-section {
-  display: grid;
-  grid-template-columns: auto;
-  background-color: #E5E5E5;
-  align-items: center;
-  max-width: 100vw;
-}
-section.project-section article.project-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
-  border-radius: 16px;
-  margin: 1rem 0 2.5rem;
-  padding: 1rem;
-}
 section.project-section article.project-card img {
   margin: auto;
   border-radius: 8px;
@@ -129,17 +210,51 @@ section.project-section article.project-card img {
   flex-grow: 0;
   width: 100%;
 }
+
+section.intro-section div.contact-me ul.socials li a img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+section.project-section {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #e5e5e5;
+  align-items: center;
+  max-width: 100vw;
+}
+
+section.project-section article.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: 1rem 0 2.5rem;
+  padding: 1rem;
+}
+
 section.project-section article.project-card div.project_info {
   margin: 0.8rem 0.2rem;
 }
+
+section.about-section article h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
 section.project-section article.project-card div.project_info h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 0.8rem;
 }
+
 section.project-section article.project-card div.project_info ul {
   display: flex;
   flex-direction: row;
@@ -149,65 +264,108 @@ section.project-section article.project-card div.project_info ul {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
 }
+
 section.project-section article.project-card div.project_info ul li {
   list-style-type: circle;
   text-transform: capitalize;
-  color: #7A869A;
+  color: #7a869a;
 }
+
 section.project-section article.project-card div.project_info ul li:nth-child(1) {
   list-style-type: none;
   text-transform: uppercase;
   color: #2b3546;
   font-weight: 600;
 }
+
 section.project-section article.project-card div.project_info p {
   margin: 0.2rem;
   font-size: 1.1rem;
 }
+
 section.project-section article.project-card div.project_info ul.skills-ul {
   align-items: left;
   justify-content: left;
   margin: 1.5rem auto 2rem;
 }
+
 section.project-section article.project-card div.project_info ul.skills-ul li {
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   list-style-type: none;
   border-radius: 8px;
-  background: #EBEBFF;
+  background: #ebebff;
   text-align: center;
   text-transform: lowercase;
-  color: #6070FF;
+  color: #6070ff;
   font-weight: 500;
   font-size: 0.8rem;
   padding: 0.2rem 0.8rem;
   margin: auto 5px;
 }
-section.project-section article.project-card div.project_info a.link-btn {
-  padding: 8px 12px;
-  margin: auto 5px;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.2rem;
-  border: 1px solid #6070FF;
-  border-radius: 8px;
-}
 
 section.about-section {
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-image: none;
-  border-radius: 0 30% 0 0;
+  border-radius: 0 100px 0 0;
   margin: 0;
   padding: 20px;
 }
-section.about-section div.contact-me ul {
-  margin-bottom: 20px;
+
+section.about-section div.contact-me h2 {
+  text-transform: uppercase;
+  color: #7f8cff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 15px;
 }
-section.about-section div.contact-me a.link-btn {
-  padding: 8px 12px;
-  margin: auto 5px;
-  text-decoration: none;
-  font-weight: 700;
+
+section.about-section div.contact-me ul.socials li a img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+section.about-section div.contact-me ul.socials {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+section.about-section div.contact-me ul.socials li a {
+  background-color: transparent;
+  border: none;
+}
+
+section#skills-section ul.mainskill-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+section#skills-section ul.mainskill-ul li {
+  list-style-type: none;
+  align-items: center;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #f7f7f9;
+  padding: 16px 0;
+}
+
+section#skills-section ul.mainskill-ul li img {
+  width: 15px;
+}
+
+section#skills-section ul.mainskill-ul li ul li {
+  background-color: #f7f7f9;
+  padding: 16px 0;
+  border-radius: 0.5rem;
+  margin: 10px 0;
   font-size: 1.2rem;
-  border: 1px solid #6070FF;
-  border-radius: 8px;
-}/*# sourceMappingURL=styles.css.map */
+  display: flex;
+  gap: 32px;
+}
+
+section#skills-section ul.mainskill-ul li ul li img {
+  width: 40px;
+}
