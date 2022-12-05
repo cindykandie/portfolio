@@ -293,6 +293,7 @@ section.project-section article.project-card div.project_info ul.skills-ul {
 }
 
 section.project-section article.project-card div.project_info ul.skills-ul li {
+  float:left;
   border: 1px solid #dfe1e6;
   list-style-type: none;
   border-radius: 8px;
