@@ -56,7 +56,6 @@ header nav img {
   width: 2.1rem;
 }
 
-
 section.intro-section {
   background-image: url(./assets/headerbg.svg);
   background-repeat: repeat;
@@ -213,7 +212,7 @@ section.project-section article.project-card div.project_info ul.skills-ul {
 }
 
 section.project-section article.project-card div.project_info ul.skills-ul li {
-  float:left;
+  float: left;
   border: 1px solid #dfe1e6;
   list-style-type: none;
   border-radius: 8px;

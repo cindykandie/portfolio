@@ -154,6 +154,11 @@ Example:
 - Twitter: [@cndykandie](https://twitter.com/cindykandie)
 - LinkedIn: [@cindykandie](https://www.linkedin.com/in/cindykandie/)
 
+👤 **Author1**
+
+- GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
+- Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
+- LinkedIn: [@lorenzoworx](https://www.linkedin.com/in/lorenzoworx/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -186,7 +191,7 @@ If you like this project create a pr and lets work together, or maybe leave a st
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank my coding partners, standup partners and every code reviewer
+I would like to thank my coding partners, standup partner- Oshoke Lorenzo and every code reviewer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -236,13 +236,20 @@
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
             </p>
         </article>
-        <form action="/contact" method="get">
-            <input type="text" placeholder="Yeremias" required maxlength="30">
-            <input type="email" placeholder="natajayanj14@gmail.com" required pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" maxlength="30">
-            <textarea name="" id="" cols="30" rows="12" placeholder="Write your message here..." maxlength="500"></textarea>
-            <button>Get In Touch</button>
+        <form action="https://formspree.io/f/mknedray" method="POST">
+            <ul>
+                <li>
+                    <input type="text" name="name" placeholder="Yeremias" required maxlength="30">
+                </li>
+                <li>
+                    <input type="email" name= "email" placeholder="natajayanj14@gmail.com" required="required" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" maxlength="30" >
+                </li>
+                <li>
+                    <textarea name="client-msg" id="client-msg" cols="30" rows="12" placeholder="Write your message here..." maxlength="500" required ></textarea>
+                </li>
+            </ul>
+            <button type="submit">Get In Touch</button>
         </form>
     </footer>
-    <script src="main.js"></script>
 </body>
 </html>
