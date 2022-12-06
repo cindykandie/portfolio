@@ -8,7 +8,7 @@
     <meta name="description" content="Cindy Kandie is a well equipped frontend developer who has taken time to polish her craft. This Portfolio is a visual representation of the work she has done and what she can do." />
     <meta name="keywords" content="frontend developer, web developer" />
     
-
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
@@ -236,14 +236,20 @@
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
             </p>
         </article>
-        <form action="">
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="12" placeholder="Write your message here..."></textarea>
-            <button>Get In Touch</button>
+        <form action="https://formspree.io/f/mknedray" method="POST">
+            <ul>
+                <li>
+                    <input type="text" name="name" placeholder="Yeremias" required maxlength="30">
+                </li>
+                <li>
+                    <input type="email" name= "email" placeholder="natajayanj14@gmail.com" required="required" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" maxlength="30" >
+                </li>
+                <li>
+                    <textarea name="client-msg" id="client-msg" cols="30" rows="12" placeholder="Write your message here..." maxlength="500" required ></textarea>
+                </li>
+            </ul>
+            <button type="submit">Get In Touch</button>
         </form>
-
     </footer>
-    <script src="main.js"></script>
 </body>
 </html>
