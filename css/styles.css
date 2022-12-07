@@ -59,6 +59,7 @@ header nav img {
 header nav ul.desktop-nav {
   display: none;
 }
+
 section.intro-section {
   background-image: url(./assets/headerbg.svg);
   background-repeat: repeat;
