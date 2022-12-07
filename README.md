@@ -165,6 +165,10 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 👥 Future Features <a name="future-features"></a>
+- Incorporating Responsive Design for all screen sizes
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
