@@ -1,4 +1,5 @@
- /* HEADER STYLING */
+/* HEADER STYLING */
+@media only screen and (max-width: 768px) {
   header {
     justify-content: space-between;
     padding: 2rem 6rem 2rem;
