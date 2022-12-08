@@ -38,6 +38,10 @@ footer article p {
   max-width: 500px;
 }
 
+footer article p:hover {
+  text-align: justify;
+}
+
 footer.contact-form form {
   display: flex;
   flex-direction: column;
