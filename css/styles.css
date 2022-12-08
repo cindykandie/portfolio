@@ -140,6 +140,11 @@ section.project-section article.project-card img {
   width: 100%;
 }
 
+section.about-section div.contact-me ul.socials li a img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 section.intro-section div.contact-me ul.socials li a img {
   width: 1.2rem;
   height: 1.2rem;
@@ -253,11 +258,6 @@ section.about-section div.contact-me h2 {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 15px;
-}
-
-section.about-section div.contact-me ul.socials li a img {
-  width: 1.2rem;
-  height: 1.2rem;  
 }
 
 section.about-section div.contact-me ul.socials {
