@@ -5,11 +5,19 @@ footer.contact-form {
   margin: 0;
   padding: 20px;
   padding-bottom: -60px;
+  min-height: 100vh;
 }
 
 footer.contact-form article {
-  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: auto auto 2rem;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 footer article h1 {
@@ -28,9 +36,16 @@ footer article p {
   font-size: 1rem;
 }
 
+footer article p:hover {
+  text-align: justify;
+}
+
 footer.contact-form form {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
 }
 
 footer.contact-form form ul {
@@ -90,4 +105,10 @@ footer.contact-form form button:active {
   color: #fff;
   background: #2230d2;
   border: 1px solid #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  footer.contact-form form button {
+    margin: 0.6rem auto;
+  }
 }
