@@ -1,0 +1,53 @@
+@media only screen and (min-width: 768px) {
+  header {
+    justify-content: space-between;
+    margin: 20px 20px 50px;
+    max-height: 1000px;
+    position: sticky;
+    padding: 4rem 4rem;
+  }
+
+  header div.logo {
+    font-size: 1.2rem;
+    font-family: "BhuTuka Expanded One", sans-serif;
+    font-weight: 800;
+  }
+
+  header nav img {
+    display: none;
+  }
+
+  header nav ul.desktop-nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header nav ul.desktop-nav li{
+    list-style-type: none;
+    
+  }
+
+  header nav ul.desktop-nav li a{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: none;
+    text-decoration: none;
+  }
+  header nav ul.desktop-nav li a:visited {
+    color: #344563;
+  }
+  header nav ul.desktop-nav li a:hover{
+    color: #6070FF;
+    text-decoration: underline;
+    text-decoration-color: #6070FF;
+  }
+  header nav ul.desktop-nav li a:active {
+    color: #344563;
+  }
+
+}
