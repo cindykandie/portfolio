@@ -64,6 +64,7 @@ After you're finished please remove all the comments and instructions!
 - added images on the page
 - Put text of various size and color
 - I have 5 main sections- Intro, Projects, About, Skills and Contact
+- The entire site is now fully sesponsive
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -154,7 +155,7 @@ Example:
 - Twitter: [@cndykandie](https://twitter.com/cindykandie)
 - LinkedIn: [@cindykandie](https://www.linkedin.com/in/cindykandie/)
 
-👤 **Author1**
+👤 **Author2** 
 
 - GitHub: [@lorenzoworx](https://github.com/lorenzoworx)
 - Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
@@ -167,7 +168,7 @@ Example:
 
 
 ## 👥 Future Features <a name="future-features"></a>
-- Incorporating Responsive Design for all screen sizes
+- Further improving the UX
 
 <!-- CONTRIBUTING -->
 

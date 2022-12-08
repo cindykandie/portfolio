@@ -112,8 +112,8 @@
     border-radius: 0 100px 0 0;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 80vh;
-    padding: 4rem;
+    min-height: 80vh;
+    padding: 5rem;
     align-items: center;
   }
 
