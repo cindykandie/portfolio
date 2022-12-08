@@ -34,13 +34,15 @@ footer article p {
   font-weight: 400;
   line-height: 2rem;
   font-size: 1rem;
+  width: 100%;
+  max-width: 500px;
 }
 
 footer.contact-form form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
 }
 
