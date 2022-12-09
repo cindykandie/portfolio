@@ -49,9 +49,20 @@ header {
 }
 
 header div.logo {
-  font-size: 1.2rem;
-  font-family: "BhuTuka Expanded One", sans-serif;
+  font-family: "BhuTuka Expanded One", serif;
   font-weight: 800;
+  font-size: 1.2rem;
+  animation: size-up 2s ease-in;
+}
+
+@keyframes size-up {
+  from {
+    font-size: 0.8rem;
+  }
+
+  to {
+    font-size: 1.2rem;
+  }
 }
 
 header nav img {
@@ -143,16 +154,21 @@ section.project-section article.project-card img {
 section.about-section div.contact-me ul.socials li a img {
   width: 1.2rem;
   height: 1.2rem;
+  transition: all 1s;
 }
 
 section.intro-section div.contact-me ul.socials li a img {
+  transition: all 1s;
   width: 1.2rem;
   height: 1.2rem;
-  transition: all 1s;
 }
 
 section.intro-section div.contact-me ul.socials li a img:hover {
   filter: drop-shadow(4px 4px 5px aquamarine);
+  transform: scale(1.2);
+  box-shadow: 60px 54px 5px 0 #b0c4f7 inset;
+  -webkit-box-shadow: 60px 54px 5px 0 #dfe1e6 inset;
+  -moz-box-shadow: 60px 54px 5px 0 #dfe1e6 inset;
 }
 
 section.project-section {
@@ -179,9 +195,10 @@ section.project-section article.project-card div.project_info {
 }
 
 section.about-section article h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 4rem;
+  margin-top: 40px;
 }
 
 section.project-section article.project-card div.project_info h1 {
@@ -247,7 +264,7 @@ section.about-section {
   background-image: none;
   border-radius: 0 100px 0 0;
   margin: 0;
-  padding: 10px 10px 20px;
+  padding: 40px 20px 20px;
 }
 
 section.about-section div.contact-me h2 {
@@ -258,6 +275,14 @@ section.about-section div.contact-me h2 {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+section.about-section div.contact-me ul.socials li a img:hover {
+  transform: scale(1.2);
+  box-shadow: 60px 54px 5px 0 #b0c4f7 inset;
+  -webkit-box-shadow: 60px 54px 5px 0 #dfe1e6 inset;
+  -moz-box-shadow: 60px 54px 5px 0 #dfe1e6 inset;
 }
 
 section.about-section div.contact-me ul.socials {
@@ -274,29 +299,53 @@ section.about-section div.contact-me ul.socials li a {
   padding: 0;
 }
 
+section#skills-section {
+  background-color: #fff;
+  background-image: none;
+  margin: 0;
+  padding: 40px 30px 20px;
+}
+
 section#skills-section ul.mainskill-ul {
   display: flex;
   flex-direction: column;
   list-style: none;
   padding: 5px;
+  justify-content: space-between;
 }
 
 section#skills-section ul.mainskill-ul li {
   list-style-type: none;
   align-items: center;
   font-size: 1.6rem;
-  border-bottom: 1px solid #f7f7f9;
+  border-bottom: 2px solid #f7f7f9;
   padding: 16px 0;
 }
 
-section#skills-section ul.mainskill-ul li img {
-  width: 15px;
-  margin-left: 10px;
+section#skills-section ul.mainskill-ul li img.arrow {
+  width: 1rem;
+  margin-right: 10px;
+  float: right;
+}
+
+section#skills-section ul.mainskill-ul li img.arrow:hover {
+  filter: drop-shadow(1px 1px 1px grey);
+  animation: shakey 0.4s alternate;
+}
+
+@keyframes shakey {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(4px);
+  }
 }
 
 section#skills-section ul.mainskill-ul li ul li {
   background-color: #f7f7f9;
-  padding: 16px 0;
+  padding: 16px 7px;
   border-radius: 0.5rem;
   margin: 10px 0;
   font-size: 1.2rem;

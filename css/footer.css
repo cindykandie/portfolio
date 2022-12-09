@@ -1,11 +1,11 @@
 footer.contact-form {
   background-color: #6070ff;
-  background-image: url(./assets/headerbg.svg);
+  background-image: url(../assets/headerbg.svg);
   border-radius: 100px 0 0 0;
   margin: 0;
-  padding: 20px;
+  padding: 30px;
   padding-bottom: -60px;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 footer.contact-form article {
@@ -23,8 +23,7 @@ footer.contact-form article {
 footer article h1 {
   text-align: center;
   margin: 20px;
-  text-shadow: 2px -2px rgb(94, 92, 92), -2px 2px rgb(61, 61, 61);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 4rem;
 }
@@ -34,17 +33,20 @@ footer article p {
   font-weight: 400;
   line-height: 2rem;
   font-size: 1rem;
+  width: 100%;
+  max-width: 500px;
+  transition: all 1s ease;
 }
 
 footer article p:hover {
-  text-align: justify;
+  transform: scale(1.04);
 }
 
 footer.contact-form form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -75,10 +77,15 @@ footer.contact-form form textarea {
   width: 100%;
 }
 
+footer.contact-form form input:focus,
+footer.contact-form form textarea:focus {
+  background-color: #cfd8dc;
+}
+
 footer.contact-form form button {
   width: 160px;
   padding: 8px 12px;
-  margin: 1rem 5px;
+  margin: 1rem 5px 0;
   text-decoration: none;
   font-weight: 700;
   font-size: 1.2rem;
