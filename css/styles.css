@@ -195,9 +195,10 @@ section.project-section article.project-card div.project_info {
 }
 
 section.about-section article h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 4rem;
+  margin-top: 40px;
 }
 
 section.project-section article.project-card div.project_info h1 {
@@ -263,7 +264,7 @@ section.about-section {
   background-image: none;
   border-radius: 0 100px 0 0;
   margin: 0;
-  padding: 10px 10px 20px;
+  padding: 40px 20px 20px;
 }
 
 section.about-section div.contact-me h2 {
@@ -274,6 +275,7 @@ section.about-section div.contact-me h2 {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 section.about-section div.contact-me ul.socials li a img:hover {
@@ -295,6 +297,13 @@ section.about-section div.contact-me ul.socials li a {
   background-color: transparent;
   border: none;
   padding: 0;
+}
+
+section#skills-section {
+  background-color: #fff;
+  background-image: none;
+  margin: 0;
+  padding: 40px 30px 20px;
 }
 
 section#skills-section ul.mainskill-ul {
@@ -336,7 +345,7 @@ section#skills-section ul.mainskill-ul li img.arrow:hover {
 
 section#skills-section ul.mainskill-ul li ul li {
   background-color: #f7f7f9;
-  padding: 16px 0;
+  padding: 16px 7px;
   border-radius: 0.5rem;
   margin: 10px 0;
   font-size: 1.2rem;

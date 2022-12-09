@@ -1,5 +1,4 @@
 @media only screen and (min-width: 768px) {
-  /* HEADER STYLING */
   header {
     justify-content: space-between;
     padding: 2rem 6rem 2rem;
@@ -76,7 +75,6 @@
     grid-template-columns: auto;
     background-color: #e5e5e5;
     align-items: center;
-    min-height: 100vh;
   }
 
   section.project-section article.project-card {
@@ -85,7 +83,7 @@
     align-items: center;
     justify-content: space-evenly;
     background: #fff;
-    min-height: 90vh;
+    min-height: 75vh;
     margin: 2.5rem 3rem;
   }
 
@@ -120,6 +118,8 @@
   div#grid-container section#skills-section ul.mainskill-ul ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     list-style: none;
     padding: 5px;
   }
@@ -127,7 +127,17 @@
   div#grid-container section#skills-section ul.mainskill-ul li ul li {
     display: flex;
     flex-direction: column;
-    flex: 1;
     margin: auto 10px;
+    min-width: 125px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section.project-section {
+    margin: auto 100px;
+  }
+
+  div#grid-container {
+    grid-template-columns: 40% 60%;
   }
 }
