@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
   <br/>
 
   <h3><b>My Portfolio</b></h3>
-
+  https://cindykandie.github.io/microverse-portfolo/
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -58,7 +58,7 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Hello microverse] <a name="about-project"></a>
-
+- View live website on https://cindykandie.github.io/microverse-portfolo/
 - This is a home page created using HTML and CSS. With this minimal site, I have implemented the figma design template 1 by Microverse.
 - I used css flexbox to display my elements correctly
 - added images on the page
