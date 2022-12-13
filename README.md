@@ -5,26 +5,26 @@ HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
 
 Modify this file to match your project and remove sections that don't apply.
-
+                                                                                                                                                                                                            
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+  - Built With                                                                                              
+                      - Live Demo
+                    - Getting Started
+                    - Authors
+                    - Future Features
+                    - Contributing
+                    - Show your support
+                    - Acknowledgements
+                    - License
 
-After you're finished please remove all the comments and instructions!
--->
+                    After you're finished please remove all the comments and instructions!
+                    -->
 
-<div align="center">
+                    <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+                      <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>My Portfolio</b></h3>
