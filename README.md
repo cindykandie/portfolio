@@ -28,7 +28,6 @@ After you're finished please remove all the comments and instructions!
   <br/>
 
   <h3><b>My Portfolio</b></h3>
-  https://cindykandie.github.io/microverse-portfolo/
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -66,6 +65,9 @@ After you're finished please remove all the comments and instructions!
 - I have 5 main sections- Intro, Projects, About, Skills and Contact
 - The entire site is now fully sesponsive
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://cindykandie.github.io/microverse-portfolo/)
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
