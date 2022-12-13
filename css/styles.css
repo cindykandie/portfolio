@@ -20,11 +20,11 @@ a:hover {
 }
 
 a:active {
-  color: #354664;
+  color: #1f2c42;
 }
 
 a.btn-link:link {
-  color: #6070ff;
+  color: #1c2681;
   background-color: #fff;
   border: 1px solid #6070ff;
   transition: background-color, color 1s;
@@ -32,19 +32,19 @@ a.btn-link:link {
 
 a.btn-link:visited {
   color: #fff;
-  background-color: #6070ff;
+  background-color: #4453dd;
   border: 1px solid #fff;
 }
 
 a.btn-link:hover {
   color: #fff;
-  background-color: #6070ff;
+  background-color: #4151e0;
   border: 1px solid #fff;
 }
 
 a.btn-link:active {
   color: #fff;
-  background: #2230d2;
+  background: #09105e;
   border: 1px solid #fff;
 }
 
@@ -121,7 +121,7 @@ section.intro-section article p {
 
 section.intro-section div.contact-me h2 {
   text-transform: uppercase;
-  color: #7f8cff;
+  color: #2f3ba0;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
@@ -242,7 +242,7 @@ section.project-section article.project-card div.project_info ul {
 section.project-section article.project-card div.project_info ul li {
   list-style-type: circle;
   text-transform: capitalize;
-  color: #7a869a;
+  color: #36568f;
 }
 
 section.project-section article.project-card div.project_info ul li:nth-child(1) {
@@ -271,7 +271,7 @@ section.project-section article.project-card div.project_info ul.skills-ul li {
   background: #ebebff;
   text-align: center;
   text-transform: lowercase;
-  color: #6070ff;
+  color: #232b75;
   font-weight: 500;
   font-size: 0.8rem;
   padding: 0.2rem 0.8rem;
@@ -288,7 +288,7 @@ section.about-section {
 
 section.about-section div.contact-me h3 {
   text-transform: uppercase;
-  color: #7f8cff;
+  color: #2f3ba0;
   font-style: normal;
   font-weight: 600;
   font-size: 1rem;
