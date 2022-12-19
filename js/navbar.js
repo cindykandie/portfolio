@@ -8,7 +8,6 @@ function toggleNav() {
     } 
     else{
       img.src = "assets/closing-icon.svg";
-
     }
 }
 

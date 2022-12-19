@@ -122,3 +122,17 @@
     grid-template-columns: 40% 60%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  header nav ul.desktop-nav {
+  display: flex;
+  flex-direction: column;
+  background: rgba(96, 112, 255, 0.8);
+  list-style: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+}
