@@ -96,7 +96,7 @@ section.intro-section {
   border-bottom-left-radius: 50px;
   padding: 20px;
   padding-bottom: 4rem;
-  background-color: #fff;
+  background-color: rgb(1, 0, 0);
   background-image: url(../assets/headerbg.svg);
 }
 
