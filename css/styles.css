@@ -64,7 +64,7 @@ header {
   justify-content: space-between;
   padding: 20px 0 50px;
   max-height: 150px;
-  background-color: #fff;
+  background-color: blue;
 }
 
 header div.logo {
@@ -92,11 +92,13 @@ header nav ul.desktop-nav {
   display: none;
 }
 
+
+
 section.intro-section {
   border-bottom-left-radius: 50px;
   padding: 20px;
   padding-bottom: 4rem;
-  background-color: rgb(1, 0, 0);
+  background-color: rgb(255, 255, 255);
   background-image: url(../assets/headerbg.svg);
 }
 
