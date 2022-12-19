@@ -7,9 +7,13 @@ function toggleNav() {
       img.src = "assets/closing-icon.svg";
     } 
     else{
-      img.src = "assets/closing-icon.svg";
+      img.src = "assets/menu.png";
     }
 }
+
+
+
+
 
 
   // Step1: Toggle menubar with the closing icon

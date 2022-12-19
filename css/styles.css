@@ -86,13 +86,13 @@ header div.logo {
 
 header nav img {
   width: 2.1rem;
+  z-index: 2;
+  background-color: royalblue;
 }
 
 header nav ul.desktop-nav {
   display: flex;
 }
-
-
 
 section.intro-section {
   border-bottom-left-radius: 50px;
