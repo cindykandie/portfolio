@@ -124,14 +124,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-   
-    header nav ul.desktop-nav {
+  header nav ul.desktop-nav {
     display: flex;
     flex-direction: column;
     background: rgba(96, 112, 255, 0.93);
     list-style: none;
     position: absolute;
-    top: 0px;
+    top: 0;
     bottom: 0;
     max-height: 100vh;
     left: -100%;
@@ -139,30 +138,32 @@
     z-index: 0;
     transition: all 1.2s ease;
   }
-  header nav ul.desktop-nav.active{
+
+  header nav ul.desktop-nav.active {
     left: 0;
     right: 0;
   }
-  header nav ul.desktop-nav li{
+
+  header nav ul.desktop-nav li {
     font-size: 2rem;
     font-weight: 600;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     padding-left: 28px;
     padding-bottom: 20px;
   }
-  
-  header nav ul.desktop-nav li:nth-child(1){
-    margin-top: 106px;
 
+  header nav ul.desktop-nav li:nth-child(1) {
+    margin-top: 106px;
   }
-  header nav ul.desktop-nav li a{
+
+  header nav ul.desktop-nav li a {
     color: #fff;
   }
-  header nav ul.desktop-nav li a:hover{
+
+  header nav ul.desktop-nav li a:hover {
     color: rgb(12, 12, 12);
     text-decoration: underline;
   }
-
 }
