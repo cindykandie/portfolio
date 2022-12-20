@@ -72,6 +72,7 @@ REQUIRED SECTIONS:
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
+- JS
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -81,7 +82,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 - Git/Github
-- HTML and CSS knowledge
+- HTML and CSS and JS knowledge
 - VS code or any other equivalent tool.
 - NodeJs, NPM
 
@@ -163,6 +164,17 @@ Example:
 - Twitter: [@lorenzoworx](https://twitter.com/lorenzoworx)
 - LinkedIn: [@lorenzoworx](https://www.linkedin.com/in/lorenzoworx/)
 
+👤 **Author3** 
+
+- GitHub: [@martinkarugaba](https://github.com/martinkarugaba)
+- Twitter: [@martinkarugaba](https://twitter.com/martinkarugaba)
+- LinkedIn: [@martinkarugaba](https://www.linkedin.com/in/martinkarugaba/)
+
+👤 **Author4** 
+
+- GitHub: [@joshualyngdoh](https://github.com/joshualyngdoh)
+- Twitter: [@joshualyngdoh](https://twitter.com/joshualyngdoh08)
+- LinkedIn: [@joshualyngdoh](https://www.linkedin.com/in/joshualyngdoh/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

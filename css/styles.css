@@ -85,9 +85,10 @@ header div.logo {
 }
 
 header nav img {
-  width: 2.1rem;
+  width: 1.8rem;
+  padding: 5px;
   z-index: 2;
-  background-color: royalblue;
+  position: relative;
 }
 
 header nav ul.desktop-nav {
@@ -100,6 +101,7 @@ section.intro-section {
   padding-bottom: 4rem;
   background-color: rgb(255, 255, 255);
   background-image: url(../assets/headerbg.svg);
+  min-height: 100vh;
 }
 
 section.intro-section article h2 {
