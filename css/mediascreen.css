@@ -26,25 +26,6 @@
     list-style-type: none;
   }
 
-  header nav ul.desktop-nav li a {
-    text-decoration: none;
-    transition: color 2s, text-decoration 2s;
-  }
-
-  header nav ul.desktop-nav li a:visited {
-    color: #344563;
-  }
-
-  header nav ul.desktop-nav li a:hover {
-    color: #6070ff;
-    text-decoration: underline;
-    text-decoration-color: #6070ff;
-  }
-
-  header nav ul.desktop-nav li a:active {
-    color: #354664;
-  }
-
   section.intro-section {
     display: flex;
     flex-direction: column;
@@ -139,5 +120,50 @@
 
   div#grid-container {
     grid-template-columns: 40% 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header nav ul.desktop-nav {
+    display: flex;
+    flex-direction: column;
+    background: rgba(96, 112, 255, 0.93);
+    list-style: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-height: 100vh;
+    left: -100%;
+    right: 100%;
+    z-index: 0;
+    transition: all 0.8s ease-in;
+  }
+
+  header nav ul.desktop-nav.active {
+    left: 0;
+    right: 0;
+  }
+
+  header nav ul.desktop-nav li {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0;
+    text-align: left;
+    padding-left: 28px;
+    padding-bottom: 20px;
+  }
+
+  header nav ul.desktop-nav li:nth-child(1) {
+    margin-top: 106px;
+  }
+
+  header nav ul.desktop-nav li a {
+    color: #fff;
+  }
+
+  header nav ul.desktop-nav li a:hover {
+    color: rgb(12, 12, 12);
+    text-decoration: underline;
   }
 }

@@ -1,0 +1,8 @@
+nav {
+  position: relative;
+}
+
+nav i.nav-style {
+  position: absolute;
+  content: "";
+}
