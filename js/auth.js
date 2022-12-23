@@ -26,4 +26,3 @@ document.querySelector('#authBtn').addEventListener('click', (e) => {
   }
   document.getElementById('contact-form').press();
 });
-
