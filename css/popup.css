@@ -106,6 +106,7 @@ div.popup-holder.active {
 .project_info .popup-details p {
   font-size: 0.8rem;
   flex: 2;
+  padding-top: 10px;
 }
 
 .project_info .skills-buttons {
