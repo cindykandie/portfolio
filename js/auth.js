@@ -27,8 +27,7 @@ document.querySelector('#authBtn').addEventListener('click', (e) => {
   document.getElementById('contact-form').press();
 });
 
-
-//preserve data in the browser
+// preserve data in the browser
 const contactData = document.querySelectorAll('.store');
 const storedData = {
   name: '',
