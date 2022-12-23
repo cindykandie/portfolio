@@ -145,6 +145,23 @@ Example:
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Introductory section]**
+- **[Project and About me section]**
+- **[Contact me section]**
+- **[Transition and Animation]**
+- **[Added Functionality using Javascript]**
+- **[Added mobile-menu using Javascript]**
+- **[Added Functionality Popup Window for Each project]**
+- **[Added client validation form using javascript]**
+- **[Added presvation of data in the browser using Javascript]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 

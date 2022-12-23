@@ -1,0 +1,138 @@
+div.popup-container {
+  display: flex;
+  justify-content: center;
+}
+
+div.popup-holder {
+  z-index: 2;
+  transform: scale(1);
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+
+div.popup-holder.active {
+  z-index: -3;
+  transform: scale(0.2);
+  opacity: 0.2;
+}
+
+.project_info.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  min-height: 110vh;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0.8rem auto;
+  padding: 20px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 800px;
+  -webkit-box-shadow: -8px -4px 300px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px -4px 300px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: -8px -4px 300px 0 rgba(0, 0, 0, 0.75);
+}
+
+.project_info.popup.active {
+  z-index: 1;
+}
+
+.project_info .popup-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.project_info a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.6rem;
+  border: 1px solid #6070ff;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.project_info a img {
+  width: 10px;
+}
+
+.project_info .popup-header img {
+  height: 1.6rem;
+}
+
+.project_info ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-size: 0.9rem;
+  align-items: left;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.project_info ul li:nth-child(1) {
+  list-style-type: none;
+  text-transform: uppercase;
+  color: #2b3546;
+  font-weight: 600;
+}
+
+.project_info img.project-img {
+  height: 400px;
+  width: 90%;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+
+.project_info .popup-details {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .project_info .popup-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 2rem;
+  }
+}
+
+.project_info .popup-details p {
+  font-size: 0.8rem;
+  flex: 2;
+  padding-top: 10px;
+}
+
+.project_info .skills-buttons {
+  flex: 1;
+}
+
+.project_info .popup-details .skills-ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 0;
+  column-gap: 0;
+  align-items: left;
+  justify-content: left;
+}
+
+.project_info .popup-details .skills-ul li {
+  float: right;
+  border: 1px solid #dfe1e6;
+  list-style-type: none;
+  border-radius: 4px;
+  background: #ebebff;
+  text-align: center;
+  text-transform: lowercase;
+  color: #232b75;
+  font-weight: 400;
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  margin: 5px;
+}

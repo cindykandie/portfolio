@@ -199,6 +199,7 @@ section.project-section {
   grid-template-columns: auto;
   background-color: #e5e5e5;
   align-items: center;
+  max-width: 100%;
 }
 
 section.project-section article.project-card {
@@ -211,6 +212,7 @@ section.project-section article.project-card {
   border-radius: 16px;
   margin: 1rem 0 2.5rem;
   padding: 1rem;
+  min-height: 100vh;
 }
 
 section.project-section article.project-card div.project_info {
