@@ -142,7 +142,7 @@ const popupCloser = (e) => {
   e.preventDefault();
 };
 
-function showPopup(project) {
+  const showPopUp = (project) => {
   const popUpTemplate = popUpModal(project);
   projectDisplay.innerHTML = popUpTemplate;
 
