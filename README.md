@@ -159,7 +159,7 @@ Example:
 - **[Added mobile-menu using Javascript]**
 - **[Added Functionality Popup Window for Each project]**
 - **[Added client validation form using javascript]**
-- **[Added presvation of data in the browser using Javascript]**
+- **[Added preservation of data in the browser (local storage) using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +191,7 @@ Example:
 
 - GitHub: [@joshualyngdoh](https://github.com/joshualyngdoh)
 - Twitter: [@joshualyngdoh](https://twitter.com/joshualyngdoh08)
-- LinkedIn: [@joshualyngdoh](https://www.linkedin.com/in/joshualyngdoh/)
+- LinkedIn: [@joshualyngdoh](https://www.linkedin.com/in/joshualyngdoh08/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
