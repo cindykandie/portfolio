@@ -5,12 +5,12 @@ div.popup-container{
 div.popup-holder{
   z-index: 2;
   transform: scale(1);
-  transition: all 1s ease-in-out;
+  transition: all 0.75s ease-in-out;
   opacity: 1;
 
 }
 div.popup-holder.active{
-  z-index: -5;
+  z-index: -3;
   transform: scale(.2);
   opacity: 0.2;
   
@@ -20,7 +20,7 @@ div.popup-holder.active{
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    min-height: 110vh;
+    min-height: 100vh;
     background-color: #ffffff;
     border-radius: 20px;
     margin: 0.8rem auto;
