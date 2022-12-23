@@ -54,13 +54,8 @@ const projects = [
     image: '<img src="assets/multi.png" alt="Snapshoot Portfolio image"/>',
     description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-<<<<<<< HEAD
-    tools: ['html', 'css', 'javascript'],
-    tools2: ['html', 'css', 'javascript', 'ruby','github','bootstrap'],
-=======
     tools: ['html, css, javascript'],
     tools2: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
->>>>>>> f3a7b0f2f0bba575cebdc79b80fae6d52a3d0970
     seeProjectbtn: 'See Project',
     liveLink: '#',
     sourceLink: '#',
@@ -169,38 +164,3 @@ window.addEventListener('load', () => {
     });
   });
 });
-
-// for (let i = 0; i < projects.length; i += 1) {
-//   let technologies = '';
-// for (let j = 0; j < projects[i].tools.length; j += 1) [
-//     technologies += `<li >${projects[i].tools[j]}</li>`,
-//   ]
-// const container = document.createElement('div');
-// container.classList.add('container');
-// container.innerHTML = `
-// "${projects[i].image}" alt="">
-// <div class="description">
-//       <h4>${projects[i].name}</h4>
-//       <ul> class="liststyle" type="none"
-//       ${projects[i].technologies}
-//       </ul>
-//       <button type="button" class="grap">See Project<button>
-// </div>
-// `;
-// portfolio.append(container);
-// }
-
-// PROJECTS AND POPUP DYNAMIC CONTENT
-
-// let projectButtons = document.querySelectorAll('#see-project-button')
-// projectButtons.forEach((element) => {
-//   element.classList.add('see-project');
-// })
-
-// STEP X
-// create project section dynamically with js objects
-
-// STEP Y
-// create popup section dynamically with js objects
-// funtions to open and close the popup prompt
-// style the popups

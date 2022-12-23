@@ -6,44 +6,15 @@ div.popup-container {
 div.popup-holder {
   z-index: 2;
   transform: scale(1);
-  transition: all 0.75s ease-in-out;
+  transition: all 1s ease-in-out;
   opacity: 1;
 }
-<<<<<<< HEAD
-div.popup-holder.active{
-  z-index: -3;
-  transform: scale(.2);
-=======
 
 div.popup-holder.active {
-  z-index: -5;
+  z-index: -3;
   transform: scale(0.2);
->>>>>>> f3a7b0f2f0bba575cebdc79b80fae6d52a3d0970
   opacity: 0.2;
 }
-<<<<<<< HEAD
-.project_info.popup{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    min-height: 100vh;
-    background-color: #ffffff;
-    border-radius: 20px;
-    margin: 0.8rem auto;
-    padding: 20px;
-    z-index: 2;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    max-width: 800px;
-    -webkit-box-shadow: -8px -4px 300px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -8px -4px 300px 0px rgba(0,0,0,0.75);
-          box-shadow: -8px -4px 300px 0px rgba(0,0,0,0.75);
-    
- }
- .project_info.popup.active{
-=======
 
 .project_info.popup {
   display: flex;
@@ -66,7 +37,6 @@ div.popup-holder.active {
 }
 
 .project_info.popup.active {
->>>>>>> f3a7b0f2f0bba575cebdc79b80fae6d52a3d0970
   z-index: 1;
 }
 

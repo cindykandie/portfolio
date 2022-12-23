@@ -196,10 +196,11 @@
           coding. I’d love to help with it.
         </p>
       </article>
-      <form action="https://formspree.io/f/mknedray" method="POST">
+      <form action="https://formspree.io/f/mknedray" method="POST" id="contact-form">
         <ul>
           <li>
             <input
+              id = "name"
               type="text"
               name="name"
               placeholder="Yeremias"
@@ -209,6 +210,7 @@
           </li>
           <li>
             <input
+              id="email"
               type="email"
               name="email"
               placeholder="natajayanj14@gmail.com"
@@ -229,10 +231,13 @@
             ></textarea>
           </li>
         </ul>
-        <button type="submit">Get In Touch</button>
+        <div id="warning-msg">
+        </div>
+        <button id="authBtn" type="submit">Get In Touch</button>
       </form>
     </footer>
     <script src="js/navbar.js"></script>
     <script src="js/projects.js"></script>
+    <script src="js/auth.js"></script>
   </body>
 </html>
