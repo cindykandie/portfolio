@@ -82,6 +82,14 @@ footer.contact-form form textarea:focus {
   background-color: #cfd8dc;
 }
 
+footer.contact-form #warning-msg {
+  color: rgb(133, 3, 3);
+  padding: 0 auto 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 footer.contact-form form button {
   width: 160px;
   padding: 8px 12px;
