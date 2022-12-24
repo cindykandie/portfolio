@@ -90,12 +90,14 @@ const popUpModal = (project) => {
         <li>${project.tools2[4]}</li>
         <li>${project.tools2[5]}</li>
       </ul>
-      <a class="btn-link" href="">
-        See Live <img src="assets/view-site.png" alt="">
-      </a>
-      <a class="btn-link" href="">
-        See Source <img src="assets/github.svg" alt="">
-      </a>
+      <div class="view-btns">
+        <a class="btn-link" href="">
+          See Live <img src="assets/view-site.png" alt="">
+        </a>
+        <a class="btn-link" href="">
+          See Source <img src="assets/github2.png" alt="">
+        </a>
+      </div>
     </div>
     </div>
     </article>
