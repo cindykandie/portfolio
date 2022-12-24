@@ -213,6 +213,7 @@ section.project-section article.project-card {
   margin: 1rem 0 2.5rem;
   padding: 1rem;
   min-height: 100vh;
+  position: relative;
 }
 
 section.project-section article.project-card div.project_info {

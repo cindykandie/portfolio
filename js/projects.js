@@ -112,9 +112,9 @@ const loadProjectCards = (projects = []) => {
   projects.forEach((project) => {
     projectContents
 
-  += `<article class="project-card project_one project-holder">
+  += `<article class="project-card project_one project-holder" id="${project.id}">
     ${project.image}
-    <div class="project_info">
+    <div class="project_info" style="position: relative;">
       <h2>${project.name}</h2>
       <ul>
         <li>${project.background}</li>
@@ -140,16 +140,14 @@ const loadProjectCards = (projects = []) => {
 };
 const projectDisplay = document.querySelector('.popup-holder');
 const popupCloser = (e) => {
-  projectDisplay.classList.toggle('active');
+  projectDisplay.classList.add('active');
   e.preventDefault();
 };
 
 function showPopup(project) {
   const popUpTemplate = popUpModal(project);
   projectDisplay.innerHTML = popUpTemplate;
-
-  projectDisplay.classList.toggle('active');
-
+  projectDisplay.classList.remove('active');
   const popUpModalCloseButton = document.querySelector('.close-popup');
   popUpModalCloseButton.addEventListener('click', popupCloser);
 }
