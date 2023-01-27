@@ -4,16 +4,16 @@ const specs = document.querySelectorAll('.specs');
 
 function toggleNav() {
   if (img.src.match('assets/menu.png')) {
-    img.src = 'assets/closing-icon.svg';
+    img.src = 'assets/icons/closing-icon.svg';
     menu.classList.toggle('active');
   } else {
-    img.src = 'assets/menu.png';
+    img.src = 'assets/icons/menu.png';
     menu.classList.toggle('active');
   }
 }
 function closeMenu() {
   menu.classList.toggle('active');
-  img.src = 'assets/menu.png';
+  img.src = 'assets/icons/menu.png';
 }
 img.addEventListener('click', toggleNav);
 specs.forEach((element) => {
