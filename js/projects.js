@@ -2,18 +2,18 @@
 const projects = [
   {
     id: 'proj1',
-    name: 'Tonic',
-    background: 'CANOPY',
-    stack: 'Back End Dev',
-    year: '2015',
-    image: '<img src="assets/tonic.png" alt="Snapshoot Portfolio image"/>',
-    description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    name: 'Kamident Clinic',
+    background: 'Dental Health',
+    stack: 'Front End Dev',
+    year: '2021',
+    image: '<img src="assets/images/kamident.png" alt="Snapshoot Portfolio image"/>',
+    description1: 'Kamident Clinic is a web site for dental patients to easily access and book their dental appointments.',
+    description2: 'Kamident Clinic is a web site for dental patients to easily access and book their dental appointments. Kamident also presents the work previously done by the dentist and is able to convince web visitors to make the same dental appointments. The dentist can quickly communicate with clinics on such a platform hence multiplying revenue sources.',
     tools: ['html', 'css', 'javascript'],
-    tools2: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
+    tools2: ['html', 'css', 'javascript', 'webpack', 'github', 'tailwind'],
     seeProjectbtn: 'See Project',
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://dantiste.netlify.app',
+    sourceLink: 'https://github.com/cindykandie/kamident-clinic',
   },
   {
     id: 'proj2',
@@ -21,7 +21,7 @@ const projects = [
     background: 'CANOPY',
     stack: 'Back End Dev',
     year: '2015',
-    image: '<img src="assets/multi.png" alt="Snapshoot Portfolio image"/>',
+    image: '<img src="assets/images/multi.png" alt="Snapshoot Portfolio image"/>',
     description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tools: ['html', 'css', 'javascript'],
@@ -36,7 +36,7 @@ const projects = [
     background: 'CANOPY',
     stack: 'Back End Dev',
     year: '2015',
-    image: '<img src="assets/tonic.png" alt="Snapshoot Portfolio image"/>',
+    image: '<img src="assets/images/tonic.png" alt="Snapshoot Portfolio image"/>',
     description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tools: ['html', 'css', 'javascript'],
@@ -51,7 +51,7 @@ const projects = [
     background: 'CANOPY',
     stack: 'Back End Dev',
     year: '2015',
-    image: '<img src="assets/multi.png" alt="Snapshoot Portfolio image"/>',
+    image: '<img src="assets/images/multi.png" alt="Snapshoot Portfolio image"/>',
     description1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     description2: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     tools: ['html', 'css', 'javascript'],
@@ -91,10 +91,10 @@ const popUpModal = (project) => {
         <li>${project.tools2[5]}</li>
       </ul>
       <div class="view-btns">
-        <a class="btn-link" href="">
+        <a class="btn-link" href="${project.liveLink}">
           See Live <img src="assets/view-site.png" alt="">
         </a>
-        <a class="btn-link" href="">
+        <a class="btn-link" href="${project.sourceLink}">
           See Source <img src="assets/github2.png" alt="">
         </a>
       </div>
